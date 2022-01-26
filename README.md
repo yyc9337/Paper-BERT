@@ -22,3 +22,10 @@ BERT는 강력한 성능을 자랑하는데, 11개의 자연어 처리에서 최
 #### 2.2 Unsupervised Fine-tuning Approaches
 - Unsupervised Feature-based Approaches와 마찬가지로 레이블이 없는 상태에서 사전 훈련된 단어 임베딩 매개 변수만 수행한다.
 
+<img src="../Paper_Review_BERT/img/figure1.jpg"  width="700" height="370">
+
+figure1 -  전반적인 Pre-trainning 과 Fine-tuning 절차이다. 출력 계층을 제외하고, 사전 훈련과 미세 조정 모두에서 동일한 아키텍처가 사용된다.
+동일한 사전 훈련된 모델 매개 변수는 다양한 down-stream 작업에 대한 모델 초기화 하는데에 사용된다. fine-tuning 중에는 모든 파라미터가 fine-tuning된다.
+[CLS]는 모든 입력 예제 앞에 추가된 특수 기호이고 [SEP]는 특수 구분 기호이다.
+
+
