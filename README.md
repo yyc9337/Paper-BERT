@@ -17,3 +17,4 @@ BERT는 강력한 성능을 자랑하는데, 11개의 자연어 처리에서 최
 # Related Work
 
 #### 2.1 Unsupervised Feature-based Approaches
+- 사전 훈련된 단어 임베딩은 현대 NLP 시스템의 필수적인 부분으로, 처음부터 학습한 임베딩보다 상당한 개선을 제공한다
