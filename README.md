@@ -14,3 +14,6 @@ BERT는 강력한 성능을 자랑하는데, 11개의 자연어 처리에서 최
 - BERT는 문장 수준 및 토큰 수준 작업의 대규모 제품군에서 최첨단 성능을 달성하여 많은 작업별 아키텍처를 능가하는 최초의 미세 조정 기반 표현 모델이다.
 - BERT는 11개의 NLP 작업에 대한 최첨단 기술을 발전시킨다.
 
+# Related Work
+
+#### 2.1 Unsupervised Feature-based Approaches
