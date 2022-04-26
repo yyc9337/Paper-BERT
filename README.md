@@ -22,4 +22,4 @@ BERT는 강력한 성능을 자랑하는데, 11개의 자연어 처리에서 최
 #### 2.2 Unsupervised Fine-tuning Approaches
 - Unsupervised Feature-based Approaches와 마찬가지로 레이블이 없는 상태에서 사전 훈련된 단어 임베딩 매개 변수만 수행한다.
 
-<img src="/img/Unsupervised Feature-based Approaches.jpg"  width="700" height="370">
+<img src="/img/"  width="300" height="300">
