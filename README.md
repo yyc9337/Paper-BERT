@@ -42,4 +42,8 @@ Masked LM :  불행하게도, 표준 조건부 언어 모델은 왼쪽에서 오
 재구성하지 않고 마스크된 단어만 예측한다.
  이를 통해 bidirectional Pre-trained model 을 얻을 수 있지만, [MASK] 토큰이 fine-tuning 중에 나타나지 않기 때문에 pre-training 과 fine-tuning에 불일치를 만들고 있다는 단점이 있다.
 
+#### 3.2 Next Sentence Prediction (NSP)
+
+질의응답(QA)과 자연어 추론(NLI)과 같은 많은 중요한 다운스트림 작업은 언어 모델링에 의해 직접 포착되지 않는 두 문장 사이의 관계를 이해하는 것을 기반으로 한다.
+
 
