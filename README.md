@@ -40,5 +40,6 @@ Masked LM :  불행하게도, 표준 조건부 언어 모델은 왼쪽에서 오
 모델은 다중 계층 맥락에서 대상 단어를 사소한 것으로 예측할 수 있기 때문이다. 심층 bidirectional 표현을 훈련하기 위해 입력 토큰의 일부 비율을 무작위로 마스크한 다음 마스크된 토큰을 예측합니다.
 마스크 토큰에 해당하는 hidden vectors는 표준 LM(language Model)에서와 같이 어휘를 통해 softmax 함수로 출력된다. denoising auto-encoders(Vincent et al., 2008)와 달리, 우리는 전체 입력을 
 재구성하지 않고 마스크된 단어만 예측한다.
+ 이를 통해 bidirectional Pre-trained model 을 얻을 수 있지만, [MASK] 토큰이 fine-tuning 중에 나타나지 않기 때문에 pre-training 과 fine-tuning에 불일치를 만들고 있다는 단점이 있다.
 
 
