@@ -17,7 +17,7 @@ BERT는 강력한 성능을 자랑하는데, 11개의 자연어 처리에서 최
 # 2. Related Work
 
 #### 2.1 Unsupervised Feature-based Approaches
-- Pre-trained word 임베딩은 현대 NLP 시스템의 필수적인 부분으로, 처음부터 학습한 임베딩보다 상당한 개선을 제공한다.
+- Pre-trained word 임베딩은 현대 NLP 시스템의 필수적인 부분으로, 처음부터 학습한 임베딩보다 상당한 개선을  제공한다.
 
 #### 2.2 Unsupervised Fine-tuning Approaches
 - Unsupervised Feature-based Approaches와 마찬가지로 레이블이 없는 상태에서 사전 훈련된 단어 임베딩 매개 변수만 수행한다.
